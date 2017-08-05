@@ -19,15 +19,11 @@ public class Field {
 			return text;
 		}
 	}
-
 	private State state;
-	
 	public Field(int x, int y){
 		this.x = x;
 		this.y = y;
 		this.state=State.Available;
-		
-
 	}
 	
 	public boolean equalsState(State s){
@@ -38,8 +34,7 @@ public class Field {
 		this.state = s;
 	}
 	
-	public State getState(){
-		
+	public State getState(){	
 		return this.state;
 	}
 	
