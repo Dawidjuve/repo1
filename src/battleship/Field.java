@@ -50,7 +50,4 @@ public class Field {
 	public int getY(){
 		return this.y;
 	}
-	
-
-
 }
